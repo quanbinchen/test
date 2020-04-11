@@ -13,6 +13,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SeckillTask {
+	
+	public void dele(){
+		System.out.println("删除成功！");
+		
+	}
 
 	/**
 	 * 刷新秒杀商品

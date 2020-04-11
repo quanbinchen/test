@@ -15,6 +15,9 @@ import org.springframework.stereotype.Component;
 public class SeckillTask {
 	
 	public void dele(){
+		int i = 9 ;
+		i = i + 10;
+		System.out.println("i= "+ i);
 		System.out.println("删除成功！");
 		
 	}

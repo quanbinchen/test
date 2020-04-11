@@ -17,8 +17,13 @@ public class SeckillTask {
 	public void dele(){
 		int i = 9 ;
 		i = i + 10;
+
 		if( i > 5){
 			i = i + 5;
+		}
+		if(i > 0){
+			i = i - 1;
+
 		}
 		System.out.println("i= "+ i);
 		System.out.println("删除成功！");

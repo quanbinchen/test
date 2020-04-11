@@ -25,6 +25,12 @@ public class SeckillTask {
 	@Scheduled(cron="12/4 * * * * ?")
 	public void refreshSeckillGoods(){
 		System.out.println("执行了任务调度"+new Date());		
-	}		
+	}	
+
+		
+	public void add(){
+		
+		System.out.println("哈哈，增加成功");
+	}
 
 }
